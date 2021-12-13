@@ -72,4 +72,4 @@ jobs:
           sudo docker pull ${{ secrets.DOCKER_USERNAME }}/api_yamdb:v1.0.0
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 8000:8000 ${{ secrets.DOCKER_USERNAME }}/api_yamdb:v1.0.0
+          sudo docker run --rm -d -p 9000:9000 ${{ secrets.DOCKER_USERNAME }}/api_yamdb:v1.0.0
