@@ -15,7 +15,7 @@ jobs:
 
     - name: Install dependencies
       run: | 
-        # обновление pip
+        #  обновление pip
         python -m pip install --upgrade pip 
         # установка flake8 и его плагинов
         pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
@@ -82,6 +82,7 @@ jobs:
           echo POSTGRES_PASSWORD=${{ secrets.POSTGRES_PASSWORD }} >> .env
           echo DB_HOST=${{ secrets.DB_HOST }} >> .env
           echo DB_PORT=${{ secrets.DB_PORT }} >> .env
+          cd huppa_fp
           sudo docker-compose up -d 
   send_message:
     runs-on: ubuntu-latest
