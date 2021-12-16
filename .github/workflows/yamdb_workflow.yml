@@ -68,11 +68,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
-          # # Выполняет pull образа с DockerHub
-          # sudo docker pull ${{ secrets.DOCKER_USERNAME }}/infra_actions
-          # #остановка всех контейнеров
-          # sudo docker stop $(sudo docker ps -a -q)
-          # sudo docker run --rm -d -p 5000:5000 ${{ secrets.DOCKER_USERNAME }}/infra_actions
+          sudo docker pull ${{ secrets.DOCKER_USERNAME }}/api_yamdb
           sudo docker-compose stop
           sudo docker-compose rm web
           touch .env
