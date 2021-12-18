@@ -9,7 +9,6 @@ services:
       - ./.env
   web:
     image: huppenen/api_yamdb:v1.0.0
-    #build: ../api_yamdb/
     restart: always
     volumes:
       - static_value:/app/static/
