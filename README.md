@@ -29,7 +29,7 @@ http://51.250.13.150/api/v1/users/
 [Django-app workflow]: (https://github.com/huppa_fp/yamdb_final/workflows/yamdb_workflow.yml/badge.svg)
 
 
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/huppa_fp/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ![Django-app workflow](https://github.com/huppa_fp/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
