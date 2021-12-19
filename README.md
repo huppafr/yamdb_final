@@ -24,11 +24,11 @@ http://51.250.13.150/api/v1/users/
 ```
 
 
-[<img aling="left" width="308px" src="https://docs.github.com/assets/cb-6722/images/help/repository/actions-workflow-status-badge.png" />][workflow]
+[<img aling="left" width="308px" src="https://docs.github.com/assets/cb-6722/images/help/repository/actions-workflow-status-badge.png" />][Django-app workflow]
 
-[workflow]: (https://github.com/huppa_fp/yamdb_final/workflows/yamdb_workflow.yml/badge.svg)
+[Django-app workflow]: (https://github.com/huppa_fp/yamdb_final/workflows/yamdb_workflow.yml/badge.svg)
 
-![example workflow](https://github.com/huppa_fp/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![Django-app workflow](https://github.com/huppa_fp/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 
 [![Android-master Actions Status](https://docs.github.com/assets/cb-6722/images/help/repository/actions-workflow-status-badge.png)](https://github.com/huppa_fp/yamdb_final/actions)
