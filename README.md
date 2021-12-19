@@ -31,7 +31,7 @@ http://51.250.13.150/api/v1/users/
 ![Django-app workflow](https://github.com/huppa_fp/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 
-[![Android-master Actions Status](https://docs.github.com/assets/cb-6722/images/help/repository/actions-workflow-status-badge.png)](https://github.com/huppa_fp/yamdb_final/actions)
+[![Django-app workflow](https://docs.github.com/assets/cb-6722/images/help/repository/actions-workflow-status-badge.png)](https://github.com/huppa_fp/yamdb_final/actions)
 
 
 ## Автор
