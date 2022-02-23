@@ -25,6 +25,10 @@ http://51.250.13.150/api/v1/users/
 
 [![Django-app workflow](https://github.com/huppafr/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/huppafr/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
+## ToDo
+- Покрыть проект тестами
+- Реализовать почтовый сервер
+
 ## Автор
 
 - Хюппенен Артем
